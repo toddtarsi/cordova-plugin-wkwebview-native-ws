@@ -49,7 +49,7 @@
         throw error;
       },
       "CDVWKWebviewNativeWS",
-      "createSocket",
+      "open",
       { url, protocols, options },
     );
     return observable;

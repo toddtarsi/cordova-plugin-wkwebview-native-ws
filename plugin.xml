@@ -41,13 +41,5 @@
     <js-module src="src/www/ios/ws-polyfill.js" name="ws-polyfill">
       <runs/>
     </js-module>
-    <podspec>
-      <config>
-        <source url="https://github.com/CocoaPods/Specs.git"/>
-      </config>
-      <pods use-frameworks="true">
-        <pod name="Starscream" spec="~> 4.0.0"/>
-      </pods>
-    </podspec>
   </platform>
 </plugin>
