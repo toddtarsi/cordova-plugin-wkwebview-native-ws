@@ -48,8 +48,8 @@
       function onError(error) {
         throw error;
       },
-      "CDVWKWebViewFileXhr",
-      "getConfig",
+      "CDVWKWebviewNativeWS",
+      "createSocket",
       { url, protocols, options },
     );
     return observable;
