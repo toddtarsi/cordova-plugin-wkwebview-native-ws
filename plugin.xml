@@ -42,7 +42,9 @@
       <runs/>
     </js-module>
     <podspec>
-      <config />
+      <config>
+        <source url="https://github.com/CocoaPods/Specs.git"/>
+      </config>
       <pods use-frameworks="true">
         <pod name="Starscream" spec="~> 4.0.0"/>
       </pods>
